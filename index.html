@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>단군 서바이버</title>
+    <!--
+      폰트는 CDN에서 불러오지 않는다. Phase 1 규칙상 네트워크 요청이 0건이어야 하므로
+      시스템에 설치된 명조/고딕 계열을 폴백 체인으로만 사용한다. (style.css 참조)
+    -->
+    <link rel="stylesheet" href="/src/ui/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game"></canvas>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
